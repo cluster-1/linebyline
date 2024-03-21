@@ -60,13 +60,19 @@
                 or say hi?
               </h2>
               <form action="">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email Address" />
-                <textarea
-                  cols="30"
-                  rows="8"
-                  placeholder="Your message"
-                ></textarea>
+                <div class="input-field">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="input-field">
+                  <input type="email" placeholder="Email Address" />
+                </div>
+                <div class="input-field">
+                  <textarea
+                    cols="30"
+                    rows="8"
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
                 <button type="submit">Submit</button>
               </form>
             </div>

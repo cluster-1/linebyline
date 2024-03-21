@@ -2,13 +2,15 @@
   <div>
     <div class="main-wrapper pad-top-0 body-bg">
       <div class="main-read-banner">
-        <img src="~/assets/image/readbanner.png" alt="" />
+        <img class="d-img" src="~/assets/image/readbanner.png" alt="" />
+        <img class="m-img" src="~/assets/image/m-banner-img.png" alt="" />
       </div>
       <div class="container">
         <div class="story-section main-bg border-pink">
           <div class="s-left">
             <h3 class="alt-title">PROMPT 1</h3>
-            <h2 class="main-title">Notes to Self</h2>
+            <h2 class="main-title">All Hands Every Monday</h2>
+            <p class="desc">Illustration: Amy Alex</p>
           </div>
           <div class="s-right">
             <p class="desc">
@@ -51,7 +53,8 @@
             <div class="featuerd-block featured-block-set">
               <div class="f-bl-left">
                 <div class="f-bl-media">
-                  <img src="~/assets/image/fea2.png" alt="" />
+                  <img class="d-img" src="~/assets/image/fea2.png" alt="" />
+                  <img class="m-img" src="~/assets/image/m-fea2.png" alt="" />
                 </div>
               </div>
               <div class="f-bl-right featured-block-set bg-red">
@@ -64,7 +67,7 @@
                       <h6>THEME</h6>
                     </div>
                   </div>
-                  <h2 class="block-title">Celine</h2>
+                  <h2 class="block-title">To Whom It May Concern</h2>
                   <p class="block-desc">Illustration: Amy Alex</p>
                   <div class="main-btn">
                     <button>2 min read</button>
@@ -75,7 +78,8 @@
             <div class="featuerd-block featured-block-set">
               <div class="f-bl-left">
                 <div class="f-bl-media">
-                  <img src="~/assets/image/fea1.png" alt="" />
+                  <img class="d-img" src="~/assets/image/fea1.png" alt="" />
+                  <img class="m-img" src="~/assets/image/m-fea2.png" alt="" />
                 </div>
               </div>
               <div class="f-bl-right featured-block-set bg-pink">

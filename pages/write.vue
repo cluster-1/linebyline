@@ -674,7 +674,7 @@
               </svg>
             </div>
           </div>
-          <div class="main-b">
+          <div class="main-btn">
             <button>View More</button>
           </div>
         </div>

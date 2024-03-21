@@ -1,5 +1,14 @@
 <template>
   <div>
+    <header>
+      <div class="header-inner">
+        <div class="h-left">
+          <div class="close-logo"></div>
+          <div class="lxl-tab"></div>
+        </div>
+        <div class="h-right"></div>
+      </div>
+    </header>
     <div class="main-wrapper body-bg">
       <div class="container">
         <div class="story-section main-bg border-pink">
