@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GAHeader></GAHeader>
     <div class="main-wrapper bg-white-green">
       <div class="container">
         <div class="story-section write-story bg-white">
@@ -27,7 +28,7 @@
               <div class="main-btn">
                 <button>Post</button>
               </div>
-              <h4>Community Guidelines</h4>
+              <a @click="openSideMenu"> Community Guidelines</a>
             </div>
           </div>
           <div class="story-close-icon">
@@ -44,11 +45,20 @@
           </div>
         </div>
       </div>
+      <GAFooter></GAFooter>
     </div>
   </div>
 </template>
-
-<script></script>
-<style lang="scss" scoped>
-@import url("~/assets/css/style.css");
-</style>
+<script>
+export default {
+  data() {
+    return { menuOpen: true };
+  },
+  methods: {
+    openSideMenu() {
+      this.menuOpen = !this.menuOpen;
+      this.$bus.$emit("openSideMenuEvent", { open: this.menuOpen });
+    },
+  },
+};
+</script>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GAHeader></GAHeader>
     <div class="main-wrapper pad-top-0 body-bg">
       <div class="main-read-banner">
         <img class="d-img" src="~/assets/image/readbanner.png" alt="" />
@@ -244,11 +245,7 @@
           </div>
         </div>
       </div>
+      <GAFooter></GAFooter>
     </div>
   </div>
 </template>
-
-<script></script>
-<style lang="scss" scoped>
-@import url("~/assets/css/style.css");
-</style>

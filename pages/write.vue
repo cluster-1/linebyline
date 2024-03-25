@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GAHeader></GAHeader>
     <div class="main-wrapper bg-white-green">
       <div class="exp-text">
         <h2>Write what’s next</h2>
@@ -10,7 +11,7 @@
       </div>
       <div class="container">
         <div class="write-collection-wrap">
-          <div class="wco-block">
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -75,6 +76,7 @@
               <div class="wco-title">
                 <h3>PROMPT 1</h3>
                 <h2>Essentials Only</h2>
+                <span>Write what happens</span>
               </div>
             </div>
             <div class="wco-right">
@@ -92,8 +94,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -175,8 +177,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -258,8 +260,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -341,8 +343,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -424,8 +426,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -507,8 +509,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -590,8 +592,8 @@
                 />
               </svg>
             </div>
-          </div>
-          <div class="wco-block">
+          </NuxtLink>
+          <NuxtLink to="/write-story" class="wco-block">
             <div class="wco-left">
               <div class="wco-media">
                 <svg
@@ -673,17 +675,15 @@
                 />
               </svg>
             </div>
-          </div>
+          </NuxtLink>
           <div class="main-btn">
             <button>View More</button>
           </div>
         </div>
       </div>
+      <GAFooter></GAFooter>
     </div>
   </div>
 </template>
 
 <script></script>
-<style lang="scss" scoped>
-@import url("~/assets/css/style.css");
-</style>

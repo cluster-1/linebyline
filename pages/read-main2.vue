@@ -3,15 +3,124 @@
     <GAHeader></GAHeader>
     <div class="main-wrapper body-bg">
       <div class="container">
-        <div class="exp-text">
-          <h2>
-            Explore stories <br />
-            written together.
-          </h2>
-          <p>
-            Five contributors per story, each writing<br />
-            from where the previous one left off.
-          </p>
+        <div class="story-section main-bg border-pink">
+          <div class="s-left">
+            <h3 class="alt-title">PROMPT 1</h3>
+            <h2 class="main-title">Notes to Self</h2>
+          </div>
+          <div class="s-right">
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <div class="main-btn">
+              <button>Share</button>
+            </div>
+          </div>
+          <div class="story-close-icon">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M1 1L18.5 18.5" stroke="#9A9A9A" />
+              <path d="M1 18.5L18.5 0.999999" stroke="#9A9A9A" />
+            </svg>
+          </div>
+        </div>
+        <div class="similar-story-section">
+          <div class="ss-inner">
+            <div class="section-title">
+              <h4>SIMILAR STORIES</h4>
+            </div>
+            <div class="ss-wrap">
+              <div class="ss-block block-set-pink main-bg">
+                <div class="ss-tags">
+                  <div class="s-tag">
+                    <h6>DATE</h6>
+                  </div>
+                  <div class="s-tag">
+                    <h6>THEME</h6>
+                  </div>
+                </div>
+                <h2 class="block-title">To Whom It May Concern</h2>
+                <p class="block-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna...
+                </p>
+                <div class="main-btn">
+                  <button>2 min read</button>
+                </div>
+              </div>
+              <div class="ss-block block-set-pink main-bg">
+                <div class="ss-tags">
+                  <div class="s-tag">
+                    <h6>DATE</h6>
+                  </div>
+                  <div class="s-tag">
+                    <h6>THEME</h6>
+                  </div>
+                </div>
+                <h2 class="block-title">To Whom It May Concern</h2>
+                <p class="block-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna...
+                </p>
+                <div class="main-btn">
+                  <button>2 min read</button>
+                </div>
+              </div>
+              <div class="ss-block block-set-pink main-bg">
+                <div class="ss-tags">
+                  <div class="s-tag">
+                    <h6>DATE</h6>
+                  </div>
+                  <div class="s-tag">
+                    <h6>THEME</h6>
+                  </div>
+                </div>
+                <h2 class="block-title">To Whom It May Concern</h2>
+                <p class="block-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna...
+                </p>
+                <div class="main-btn">
+                  <button>2 min read</button>
+                </div>
+              </div>
+              <div class="ss-block block-set-pink main-bg">
+                <div class="ss-tags">
+                  <div class="s-tag">
+                    <h6>DATE</h6>
+                  </div>
+                  <div class="s-tag">
+                    <h6>THEME</h6>
+                  </div>
+                </div>
+                <h2 class="block-title">To Whom It May Concern</h2>
+                <p class="block-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna...
+                </p>
+                <div class="main-btn">
+                  <button>2 min read</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="featured-stories">
           <div class="section-title">
@@ -126,7 +235,7 @@
                   <h6>THEME</h6>
                 </div>
               </div>
-              <h2 class="block-title">Notes to Self</h2>
+              <h2 class="block-title">To Whom It May Concern</h2>
               <p class="block-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna...
@@ -144,7 +253,7 @@
                   <h6>THEME</h6>
                 </div>
               </div>
-              <h2 class="block-title">Celine</h2>
+              <h2 class="block-title">To Whom It May Concern</h2>
               <p class="block-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna...
@@ -162,7 +271,7 @@
                   <h6>THEME</h6>
                 </div>
               </div>
-              <h2 class="block-title">Cereal for dinner</h2>
+              <h2 class="block-title">To Whom It May Concern</h2>
               <p class="block-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna...
@@ -180,7 +289,7 @@
                   <h6>THEME</h6>
                 </div>
               </div>
-              <h2 class="block-title">yesterdaze</h2>
+              <h2 class="block-title">To Whom It May Concern</h2>
               <p class="block-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna...
@@ -198,7 +307,7 @@
                   <h6>THEME</h6>
                 </div>
               </div>
-              <h2 class="block-title">To Whom It may concern</h2>
+              <h2 class="block-title">To Whom It May Concern</h2>
               <p class="block-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna...
